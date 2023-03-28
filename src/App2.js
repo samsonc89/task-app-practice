@@ -1,5 +1,5 @@
-import { render } from "@testing-library/react";
 import React, { Component } from "react";
+import MyComponent from "./components/Overview2";
 
 class App extends Component {
   constructor() {
@@ -16,6 +16,7 @@ class App extends Component {
         <button type="submit" onSubmit="">
           World
         </button>
+        <MyComponent text="Hello" title="WOrk" />
       </div>
     );
   }
